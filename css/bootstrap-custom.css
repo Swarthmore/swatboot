@@ -1,0 +1,120 @@
+/** Custom CSS with LESS**/
+header h1,
+header h2 {
+  margin: 10px 0;
+  text-align: center;
+  line-height: 1;
+}
+@media (min-width: 768px) {
+  header h1,
+  header h2 {
+    text-align: left;
+    line-height: 1.1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+}
+header h1 {
+  font-size: 28px;
+  line-height: 1;
+}
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+}
+header h2 {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  header h2 {
+    font-size: 30px;
+  }
+}
+button.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+  margin-right: 0;
+}
+.nav-audience,
+.nav-utilities {
+  float: right;
+  clear: both;
+}
+.nav-audience > li > a,
+.nav-utilities > li > a {
+  padding: 5px;
+}
+#social-media img {
+  width: 32px;
+  height: 32px;
+}
+#social-media,
+#social-media li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#social-media li {
+  float: left;
+}
+.panel {
+  padding: 0;
+}
+.panel h3.title {
+  margin: 0;
+  padding: 4px 0 4px 9px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.3em;
+  letter-spacing: 0.4px;
+  color: white;
+  text-shadow: 1px 1px #000;
+  display: block;
+  background: #2d2d2d url(http://www.swarthmore.edu/sites/all/themes/swarthmore/css/images/bg_title.gif) repeat-x top left;
+  background: -moz-linear-gradient(top, #2d2d2d 0%, #2d2d2d 3%, #343434 6%, #383838 12%, #3a3a3a 24%, #2e2e2e 53%, #292929 56%, #272727 59%, #1d1d1d 82%, #101010 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d2d2d), color-stop(3%, #2d2d2d), color-stop(6%, #343434), color-stop(12%, #383838), color-stop(24%, #3a3a3a), color-stop(53%, #2e2e2e), color-stop(56%, #292929), color-stop(59%, #272727), color-stop(82%, #1d1d1d), color-stop(100%, #101010));
+  background: -webkit-linear-gradient(top, #2d2d2d 0%, #2d2d2d 3%, #343434 6%, #383838 12%, #3a3a3a 24%, #2e2e2e 53%, #292929 56%, #272727 59%, #1d1d1d 82%, #101010 100%);
+  background: -o-linear-gradient(top, #2d2d2d 0%, #2d2d2d 3%, #343434 6%, #383838 12%, #3a3a3a 24%, #2e2e2e 53%, #292929 56%, #272727 59%, #1d1d1d 82%, #101010 100%);
+  background: -ms-linear-gradient(top, #2d2d2d 0%, #2d2d2d 3%, #343434 6%, #383838 12%, #3a3a3a 24%, #2e2e2e 53%, #292929 56%, #272727 59%, #1d1d1d 82%, #101010 100%);
+  background: linear-gradient(to bottom, #2d2d2d 0%, #2d2d2d 3%, #343434 6%, #383838 12%, #3a3a3a 24%, #2e2e2e 53%, #292929 56%, #272727 59%, #1d1d1d 82%, #101010 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d2d2d', endColorstr='#101010', GradientType=0);
+}
+.panel .content {
+  padding: 12px 10px;
+}
+.panel .more-link {
+  display: block;
+  text-align: right;
+}
+.panel .more-link:after {
+  content: '\0020\00BB';
+}
+/** FEATURE PANEL PANE **/
+.feature {
+  clear: both;
+}
+.feature img.component-image {
+  border: 1px solid #DDD;
+  padding: 5px;
+  margin: 0 5px 5px 0;
+  max-width: 300px;
+}
+.feature img.component-image.left {
+  float: left;
+  max-width: 110px;
+}
+.feature.twocol img.component-image.left {
+  float: none;
+  display: block;
+  margin: 0 auto 5px auto;
+  float: left;
+}
+@media (min-width: 768px) {
+  .feature.twocol img.component-image.left {
+    max-width: 220px;
+  }
+}
+/*# sourceMappingURL=bootstrap-custom.css.map */

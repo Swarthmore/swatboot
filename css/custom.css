@@ -1,0 +1,14 @@
+/** Custom CSS **/
+button.navbar-toggle{
+	float: left;
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.nav-audience, .nav-utilities {
+	float: right;
+	clear: both;
+}
+.nav-audience > li > a, .nav-utilities > li > a{
+	padding: 5px;
+}
